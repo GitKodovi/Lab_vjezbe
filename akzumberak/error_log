@@ -1,0 +1,74 @@
+[11-Nov-2019 18:54:36 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[11-Nov-2019 18:54:36 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 10:44:13 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:23:43 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:23:52 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:23:56 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:23:56 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:24:08 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:24:14 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:24:14 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:26:26 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:26:31 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
+[12-Nov-2019 20:26:31 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:30:49 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:32:48 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:32:52 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:32:53 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:32:54 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:37:19 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:46:49 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:53:28 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:55:44 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:56:41 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 20:59:00 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 20:59:04 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 20:59:30 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:03:53 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 29
+[12-Nov-2019 21:05:59 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:06:12 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:08:43 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:09:19 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:10:16 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:10:57 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:11:29 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:12:45 Europe/Zagreb] PHP Warning:  require(trka/popis_prijavljenih.php): failed to open stream: No such file or directory in /home/akzumbe9/public_html/trka.php on line 63
+[12-Nov-2019 21:12:45 Europe/Zagreb] PHP Warning:  require(trka/popis_prijavljenih.php): failed to open stream: No such file or directory in /home/akzumbe9/public_html/trka.php on line 63
+[12-Nov-2019 21:12:45 Europe/Zagreb] PHP Fatal error:  require(): Failed opening required 'trka/popis_prijavljenih.php' (include_path='.:/opt/alt/php56/usr/share/pear:/opt/alt/php56/usr/share/php') in /home/akzumbe9/public_html/trka.php on line 63
+[12-Nov-2019 21:13:00 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:13:45 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:14:55 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:16:43 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:23:22 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:24:26 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:25:36 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:27:14 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:27:17 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:27:33 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[12-Nov-2019 21:32:10 Europe/Zagreb] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, object given in /home/akzumbe9/public_html/trka/popis_prijavljenih.php on line 27
+[13-Nov-2019 21:37:14 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/akzumbe9/public_html/skola/upisi.php on line 57
+[13-Nov-2019 21:38:51 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/akzumbe9/public_html/skola/upisi.php on line 57
+[13-Nov-2019 21:39:29 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 67
+[13-Nov-2019 21:40:23 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '}' in /home/akzumbe9/public_html/skola/upisi.php on line 82
+[13-Nov-2019 21:40:40 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '}' in /home/akzumbe9/public_html/skola/upisi.php on line 82
+[13-Nov-2019 21:43:15 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 67
+[13-Nov-2019 21:45:08 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 67
+[13-Nov-2019 21:49:10 Europe/Zagreb] PHP Parse error:  syntax error, unexpected '\' (T_NS_SEPARATOR) in /home/akzumbe9/public_html/skola/upisi.php on line 67
+[13-Nov-2019 21:59:21 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 69
+[13-Nov-2019 22:01:26 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:05:15 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:07:07 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:10:32 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:10:39 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:12:54 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 65
+[13-Nov-2019 22:19:54 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:26:20 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:27:40 Europe/Zagreb] PHP Fatal error:  Call to undefined function clean_string() in /home/akzumbe9/public_html/skola/upisi.php on line 66
+[13-Nov-2019 22:54:08 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 68
+[13-Nov-2019 22:57:49 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 68
+[13-Nov-2019 22:57:55 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 68
+[13-Nov-2019 22:58:37 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 68
+[13-Nov-2019 22:58:53 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'http' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 68
+[13-Nov-2019 23:01:05 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'SVIH' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 72
+[13-Nov-2019 23:02:41 Europe/Zagreb] PHP Parse error:  syntax error, unexpected 'SVIH' (T_STRING) in /home/akzumbe9/public_html/skola/upisi.php on line 72
+[13-Nov-2019 23:04:51 Europe/Zagreb] PHP Parse error:  syntax error, unexpected ':' in /home/akzumbe9/public_html/skola/upisi.php on line 72

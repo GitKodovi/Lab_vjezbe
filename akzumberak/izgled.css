@@ -1,0 +1,200 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-family:arial,"Open sans";
+	text-align:center;
+}
+
+a{
+	text-decoration:none;
+}
+
+header{
+	width:100%;
+}
+
+header h2{
+	color:#CCC;
+	width:300px;
+}
+
+.cisti{
+	clear:both;
+}
+
+.okvir{
+	width:80%;
+	margin:auto;
+	font-size:16px;
+	max-width:1200px;
+}
+
+header ul{
+	list-style-type:none;
+	width:80%;
+	float:left;
+}
+
+header li{
+	float:left;
+	margin-right:20px;
+}
+
+header nav a{
+	display:block;
+	color:black;
+	text-decoration:none;
+	font-weight:bold;
+	margin:10px;
+}
+
+.nav1{
+	font-size:22px;
+}
+
+.nav2{
+	font-size:18px;
+}
+
+header nav a:hover{
+	color:#68A4C4;
+
+}
+
+.home{
+	color: #68A4C4;
+}
+
+.slikaHeader{
+	margin-top:10px;
+	clear:both;
+	width:100%;
+	height:0%;
+	background-size:100% 100%;
+	padding-bottom:35%;
+	background-image:url(img/skola_trcanja.jpg);
+}
+
+.trkaSlika{
+	margin-top:10px;
+	clear:both;
+	width:100%;
+	height:0%;
+	background-size:100% 100%;
+	padding-bottom:35%;
+	background-image:url(img/trka.jpg);
+}
+
+
+
+
+.artikl1{
+	margin-top:90px;
+}
+
+.artikl1 p{
+	font-weight:bold;
+	font-size:18px;
+	text-align:center;
+}
+
+.artikl1 span{
+	color:#68A4C4;
+}
+
+.artikl2, .artikl3,.artikl4{
+	float:left;
+	width:30%;
+	margin-right:3%;
+	text-align:center;
+	margin-top:100px;
+}
+
+.gore{
+	background-color: #f8f8f8;
+	width:100%;
+	font-size:13px;
+}
+
+.gore p{
+	color:gray;
+}
+
+.dolje{
+	background-color:#68A4C4;
+	color:white;
+	padding:15px 0 15px 0;
+	margin-top:20px;
+}
+
+.s1{
+	width:40%;
+	float:left;
+	text-align:left;
+}
+
+.s2{
+	width:60%;
+	float:right;
+	text-align:left;
+}
+
+.s3{
+	width:40%;
+	float:left;
+	text-align:left;
+}
+
+.s4{
+	width:30%;
+	float:right;
+	text-align:left;
+}
+
+.send{
+	padding: 5px;
+	color:green;
+	font-weight:bold;
+	margin-top:12px;
+}
+
+form{
+	margin-top:30px;
+}
+
+.prijaveNaslov{
+	float:left;
+	text-align:left;
+	margin-bottom:20px;
+}
+
+.prijavljeni{
+	float:left;
+	width:500px;
+	text-align:left;
+}
+
+.popis_prijavljenih table{
+	border-collapse: collapse;
+	font-size:17px;
+}
+
+.popis_prijavljenih table, .popis_prijavljenih th, .popis_prijavljenih td {
+	border: 1px solid black;
+	padding: 2px;
+}
+
+.popis_prijavljenih th{
+	background-color:#e6e6e6;
+}
+
+.upisi_tablica table, .upisi_tablica th, .upisi_tablica td {
+	border-collapse: collapse;
+	border: 1px solid white;
+}
+
+
+
