@@ -1,0 +1,1 @@
+[12-Nov-2019 20:27:12 Europe/Zagreb] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/akzumbe9/public_html/config.php on line 10
