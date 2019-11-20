@@ -1,0 +1,278 @@
+body{
+	margin: 0;
+    padding: 0;
+	font-family:arial;
+	background-image: url("bg01.jpg");
+
+}
+
+.okvir{
+	margin-left: auto;
+    margin-right: auto;
+    width:1000px;
+	
+}
+
+header{
+	position:fixed;
+	color:white;
+	font-family:arial;
+    top:30px;
+	width:1000px;
+	background-image: url("bg01.jpg");
+}
+
+.doNaslova{
+	font-style:italic;
+	color:#777777;
+	font-size: 15px;
+
+}
+header h1{
+	font-style:italic;
+    font-size: 30px;
+	display:inline-block;
+	width:480px;
+
+}
+
+header a:link{
+	color:white;
+	font-size:11px;
+	font-weight:bold;
+	padding:8px;
+	text-decoration:none;
+}
+
+header a:visited{
+	color:white;
+	text-decoration: line-through;
+}
+
+header a:hover{
+	color:orange;
+	border-right: 1px solid blue; 
+	border-left: 1px solid blue;
+}
+
+header a:active{
+	border:none;
+	color:white;	
+	text-decoration:underline;
+}
+
+.podnaslov{
+	color:#777777;
+}
+
+header b{
+	float: right;
+	text-align:right;
+	font-size:12px;
+	width:630px;
+}
+
+nav{
+    margin: 140px 0 25px 0;    
+	text-align:center;
+}
+
+.bijeli{
+	color:white;
+	display:inline;
+	font-size:25px;
+}
+
+.sivi{
+	color:#777777;
+	display:inline;
+	font-size:25px;
+}
+
+.artikl1{
+	background-color:white;
+	width:750px;
+	height:500px;
+	float:left;
+	margin-bottom:30px;
+}
+
+.naslovArtikl{
+	float:left;
+	color:#00A8FF;
+	font-size:22px;
+	padding:20px;
+	margin:0px;
+}
+
+.tockeArtikl{
+	color:#BEBEBE;
+	padding-left:20px;
+	
+}
+
+.tekstArtikl{
+	padding-left:20px;
+	padding-right:20px;
+	font-size:14px;
+	color:#777777;
+}
+
+.maleSlikeArtikl{
+	padding:20px;
+	width:220px;
+	float:right;
+
+}
+
+.desniOkvir{
+	width:220px;
+	float:right;
+	margin:0;
+	padding:0;
+}
+
+.crveniPravokutnik{
+	width:180px;
+	background-color:#FF4E00;
+	float:right;
+	margin-bottom:20px;
+	padding:20px;
+}
+
+.plaviPravokutnik{
+	width:180px;
+	background-color:#22B6ED;
+	float:right;
+	margin-bottom:20px;
+	padding:20px;
+}
+
+.crveniPravokutnik h2{
+	color:white;
+	font-size:18px;
+}
+
+.crveniPravokutnik p{
+	color:white;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+.plaviPravokutnik h2{
+	color:white;
+	font-size:18px;
+}
+
+.plaviPravokutnik p{
+	color:white;
+	font-size:14px;
+	padding-bottom:5px;
+}
+
+.arhiva{
+
+	float:right;
+	width:220px;
+}
+
+.kolona1{
+	float:left;
+	width:100px;
+}
+
+.kolona2{
+	float:right;
+	width:100px;
+}
+
+.kolona1 h4{
+	color:#22B6ED;
+	font-size:12px;
+}
+
+.kolona1 a:link{
+	color:white;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.kolona1 a:visited{
+	color:white;
+}
+
+.kolona1 a:hover{
+	color:white;
+	letter-spacing:1px;
+}
+
+.kolona2 h4{
+	color:#22B6ED;
+	font-size:11px;
+}
+.kolona2 a:link{
+	color:white;
+	font-size:11px;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+.kolona2 a:visited{
+	color:white;
+}
+
+.kolona2 a:hover{
+	color:white;
+	letter-spacing:1px;
+}
+
+.plavaVelikaSlova {
+	color:#22B6ED;
+	font-size:11px;
+	font-weight:bold;
+	margin-bottom:0px;
+}
+
+#razmak p{
+	line-height:60%;
+}
+
+.okvirDno{
+	position:absolute;
+	top:760px;
+	width:750px;
+}
+
+.lijeviFooter, .srednjiFooter{
+	width:240px;
+	height:500px;
+	float:left;
+	background-color:white;
+	margin-right:15px;
+	margin-bottom:50px;
+}
+
+.desniFooter{
+	width:240px;
+	height:500px;
+	float:left;
+	background-color:white;
+	
+}
+
+.siviGumb{
+	margin:10px 0 10px 20px;
+}
+
+hr{
+	color:#777777;
+}
+
+.crta{
+	border-bottom:solid 1px;
+	width:1000px;
+	position:absolute;
+	top:1280px;
+	border-bottom-color:#777777;
+}

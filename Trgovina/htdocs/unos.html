@@ -1,0 +1,211 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Unos</title>
+	<link rel="stylesheet" media="screen" href="style.css">
+	<meta name="author" content="Robert Smičiklas">
+</head>
+
+
+<body class="unosBody">
+
+<!--PHP DB extension: DBA, PDO, ODBC(Unified), mySQL baza, administriramo je preko myPHPadmin -->
+
+<div class="okvir">
+	<header class="headerIndex">
+		<img src="logo.jpg" alt="logo" width="320">
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Početna</a></li>
+				<li><a href="onama.html" >O nama</a></li>
+				<li><a href="unos.html">Unos proizvoda</a></li>
+				<li><a href="proizvodi.php">Proizvodi</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="registracija.html">Registracija</a></li>
+				<li><a href="administrator.php">Administrator</a></li>
+				<li><a href="http://www.tvz.hr" target="_blank">Tvz</a></li>
+				
+				
+				
+			</ul>
+		</nav>
+		<div class="cisti">
+		</div>
+	</header>
+
+
+	<form name="forma" action="skripta.php" method="POST">
+		
+		<p class="legenda">Naslov proizvoda:</p>
+			<label>Naziv proizvoda: &nbsp; &nbsp;</label> <input type="text" name="nazivProizvoda" id="naziv" size="55"><span style="color:red" id="poruka"></span><br>
+			<label>Šifra proizvoda: &nbsp; &nbsp; &nbsp;</label> <input type="password" name="sifraProizvoda" id="sifra" size="55"><span style="color:red" id="porukaSifra"></span><br>
+			
+		<p class="legenda">Kategorija proizvoda:</p>
+		<label>Odaberite kategoriju: &nbsp;</label> 
+		<select name="kategorijaProizvoda" id="idKategorija">
+			<option value="0" selected >(molimo odaberite)</option>
+			<option value="hrana">Hrana</option>
+			<option value="tehnika">Tehnika</option>
+			<option value="pribor">Pribor za kuću</option>
+			<option value="odjeca">Odjeća</option>
+		</select>
+		<span style="color:red" id="selectPoruka"></span>
+		
+		<p class="legenda">Dodaj sliku:</p>
+		<input type="file" name="datoteka">
+		
+		<p class="legenda">Opis proizvoda:</p>
+		<textarea name="opis" cols="65" rows="12" id = "opis"> </textarea><span style="color:red" id="opisPoruka"></span>
+		
+		<p class="legenda">Cijena proizvoda:</p>
+		<label>Unesite cijenu:</label> <input type="number" name="cijena" min="1">
+		
+			
+		<p class="legenda">Arhivira</p>
+			<label><input type="checkbox" name="arhiva" value="1" id="arhivirajID">&nbsp; Arhiviraj proizvod</label><br>
+	
+	
+		<input type="submit" value="Pošalji" class="posalji" id="gumb">
+		
+		
+	
+	</form>
+	
+	
+	<footer>
+		<p> Copyright © 2016 | Robert Smičiklas |<a href="mailto:rsmicikla@tvz.hr?subject=Test&body=Test">rsmicikla@tvz.hr</a> </p>
+	</footer>
+	
+</div>
+	<script type="text/javascript">
+				
+		document.getElementById("gumb").onclick = function (event) {
+			if (document.getElementById("arhivirajID").checked==true) {
+				var provjera = confirm ("Jeste li sigurni?");
+				if (provjera==true) {
+					var naziv = document.getElementById("naziv"); // tekstualni objekt
+					var sifra = document.getElementById("sifra");
+					var opis = document.getElementById("opis");
+					var kategorija = document.getElementById("idKategorija");
+					var kategorijaValue = kategorija.options[kategorija.selectedIndex].value;
+						
+					var nazivProizvodaTekst = naziv.value; // vrijednost tekstualnog objekta (tekst)
+					var sifraTekst = sifra.value;
+					var opisTekst = opis.value;
+						
+					if (nazivProizvodaTekst.length < 5 || nazivProizvodaTekst.length > 30 ) {
+					
+						naziv.style.border="1px solid red";
+						document.getElementById("poruka").innerHTML="Naziv proizvoda mora imati 5 do 30 znakova";
+
+						event.preventDefault();
+					}
+					else{
+						naziv.style.border="none";
+						document.getElementById("poruka").innerHTML="";
+					}
+					
+					if(sifraTekst.length != 10){
+						sifra.style.border="1px solid red";
+						document.getElementById("porukaSifra").innerHTML="Šifra proizvoda mora imati 10 znakova";
+							
+						event.preventDefault();
+					}
+					else{
+						sifra.style.border="none";
+						document.getElementById("poruka").innerHTML="";
+					}
+						
+					if(opisTekst.length < 10 || opisTekst.length > 100){
+						opis.style.border="1px solid red";
+						document.getElementById("opisPoruka").innerHTML="Opis mora imati 10 do 100 znakova";
+							
+						event.preventDefault();
+					}
+					else{
+						opis.style.border="none";
+						document.getElementById("poruka").innerHTML="";
+					}
+					
+					if(kategorijaValue == 0){
+						kategorija.style.border="1px solid red";
+						document.getElementById("selectPoruka").innerHTML="Niste odabarli kategoriju";
+						event.preventDefault();
+					}
+					else{
+						kategorija.style.border="none";
+						document.getElementById("poruka").innerHTML="";
+					}
+					
+					
+				}
+				
+				else{
+					event.preventDefault();
+				}
+			}
+			
+			else{
+				var naziv = document.getElementById("naziv"); // tekstualni objekt
+				var sifra = document.getElementById("sifra");
+				var opis = document.getElementById("opis");
+				var kategorija = document.getElementById("idKategorija");
+				var kategorijaValue = kategorija.options[kategorija.selectedIndex].value;
+				
+				var nazivProizvodaTekst = naziv.value; // vrijednost tekstualnog objekta (tekst)
+				var sifraTekst = sifra.value;
+				var opisTekst = opis.value;
+				
+				if (nazivProizvodaTekst.length < 5 || nazivProizvodaTekst.length > 30 ) {
+					naziv.style.border="1px solid red";
+					document.getElementById("poruka").innerHTML="Naziv proizvoda mora imati 5 do 30 znakova";
+
+					event.preventDefault();
+				}
+				else{
+					naziv.style.border="none";
+					document.getElementById("poruka").innerHTML="";
+				}
+					
+				if(sifraTekst.length != 10){
+					sifra.style.border="1px solid red";
+					
+					document.getElementById("porukaSifra").innerHTML="Šifra proizvoda mora imati 10 znakova";
+							
+					event.preventDefault();
+				}
+				else{
+					sifra.style.border="none";
+					document.getElementById("poruka").innerHTML="";
+				}
+						
+				if(opisTekst.length < 10 || opisTekst.length > 100){
+					opis.style.border="1px solid red";
+					document.getElementById("opisPoruka").innerHTML="Opis mora imati 10 do 100 znakova";
+							
+					event.preventDefault();
+				}
+				else{
+					opis.style.border="none";
+					document.getElementById("poruka").innerHTML="";
+				}
+				
+				if(kategorijaValue == 0){
+					kategorija.style.border="1px solid red";
+					document.getElementById("selectPoruka").innerHTML="Niste odabarli kategoriju";
+					event.preventDefault();
+				}
+				else{
+					kategorija.style.border="none";
+					document.getElementById("poruka").innerHTML="";
+				}
+			}
+				
+		}
+				
+	</script>
+</body>
+
+</html> 

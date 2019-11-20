@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Login</title>
+<meta charset="UTF-8">
+<meta name="author" content="Robert Smičiklas">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body class="unosBody">
+
+<div class="okvir">
+	<header class="headerIndex">
+		<img src="logo.jpg" alt="logo" width="320">
+		
+		<nav>
+			<ul>
+				<li><a href="index.html">Početna</a></li>
+				<li><a href="onama.html" >O nama</a></li>
+				<li><a href="unos.html">Unos proizvoda</a></li>
+				<li><a href="proizvodi.php">Proizvodi</a></li>
+				<li><a href="login.html">Login</a></li>
+				<li><a href="registracija.html">Registracija</a></li>
+				<li><a href="administrator.php">Administrator</a></li>
+				<li><a href="http://www.tvz.hr" target="_blank">Tvz</a></li>
+				
+			</ul>
+		</nav>
+		<div class="cisti">
+		</div>
+	</header>
+
+	<form name="loginForma" action="administrator.php" method="POST">
+
+		<label>Korisničko ime: &nbsp;</label> <input type="text" name="user" size="40"><br>
+		<label>lozinka: &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </label> <input type="password" name="pass" size="40"><br>
+		
+		<input type="submit" value="Pošalji" class="posalji" id="gumb">
+	
+	</form>
+	
+	</div>
+	
+</body>
+</html> 
